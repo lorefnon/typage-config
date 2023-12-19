@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "esm/index.js",
   "type": "module",
+  "repository": "github:lorefnon/typage-config",
   "scripts": {
     "prepublishOnly": "pnpm run build",
     "build": "pnpm run build:esm",
