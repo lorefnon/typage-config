@@ -1,0 +1,32 @@
+{
+  "name": "typage-config",
+  "version": "0.0.1",
+  "main": "esm/index.js",
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "pnpm run build:esm",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "test": "ava"
+  },
+  "files": [
+    "esm"
+  ],
+  "keywords": ["encryption", "config", "configuration"],
+  "author": "Lorefnon <lorefnon@tuta.com> (https://lorefnon.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@ava/typescript": "^4.1.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.5",
+    "@types/uuid": "^9.0.7",
+    "ava": "^6.0.1",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1"
+  },
+  "dependencies": {
+    "age-encryption": "^0.1.5",
+    "js-yaml": "^4.1.0"
+  }
+}
