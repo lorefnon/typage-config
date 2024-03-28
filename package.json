@@ -1,6 +1,6 @@
 {
   "name": "typage-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "esm/index.js",
   "type": "module",
   "repository": "github:lorefnon/typage-config",
@@ -20,10 +20,10 @@
   "devDependencies": {
     "@ava/typescript": "^4.1.0",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.10.5",
-    "@types/uuid": "^9.0.7",
-    "ava": "^6.0.1",
-    "typescript": "^5.3.3",
+    "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
+    "ava": "^6.1.2",
+    "typescript": "^5.4.3",
     "uuid": "^9.0.1"
   },
   "dependencies": {
